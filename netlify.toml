@@ -1,13 +1,8 @@
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
   publish = "my-app/.next"
+  functions = "netlify/functions"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Uncomment the redirect rule if you're deploying a Single Page Application (SPA)
-# [[redirects]]
-#   from = "/*"
-#   to = "/index.html"
-#   status = 200
