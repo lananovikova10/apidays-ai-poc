@@ -15,9 +15,8 @@ The purpose of this PoC is to demonstrate and evaluate key functionalities and a
 
 ## Key Features
 
-- **Interactive API Documentation**: Enables users to explore and test API endpoints directly.
-- **Dynamic Content Rendering**: Utilizes React for rendering dynamic and responsive content.
-- **Customizable Components**: Leveraging reusable components for displaying API data and responses.
+- **Generate early drafts for conceptual API topics using GenAI**
+- **Using OpenAPI spec and meeting notes as an input**
 
 ## Setup Instructions
 
@@ -55,6 +54,7 @@ The application is configured for deployment on Netlify. Ensure all changes are 
 - **TypeScript**: Offers type safety throughout the codebase.
 - **Next.js**: Framework for server-side rendering and static site generation.
 - **Tailwind CSS**: Provides utility-first CSS framework for styling.
+- **Hugging Face Transformers**: Request to the GenAI model. 
 
 ## Contributing
 
